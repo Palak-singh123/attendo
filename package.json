@@ -1,0 +1,14 @@
+{
+  "name": "attendo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Attendo - AI powered face + voice attendance. Vanilla JS front-end, Vercel serverless API, Supabase database.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/api.test.js",
+    "dev": "npx vercel dev"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3"
+  }
+}
